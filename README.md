@@ -78,7 +78,7 @@ for row in rewards:
   print(row)
   ```
 
-![image](https://user-images.githubusercontent.com/67872867/173496270-f264183f-dec8-4bc2-becd-d614a011c98f.png)
+![image](https://user-images.githubusercontent.com/67872867/173496353-f4ec0621-9f41-4ded-8e97-9bd3bf10b285.png)
 
 ## Train the Model
 Our next task is for our AI agent to learn about its environment by implementing a Q-learning model. The learning process will follow these steps:
