@@ -191,6 +191,8 @@ print(q_values)
 
 ```
 
+![image](https://user-images.githubusercontent.com/67872867/173495182-9f304383-fec8-49d6-83c0-fd34575f670e.png)
+
 ## Get Shortest Paths
 Now that the agent has been fully trained, we can see what it has learned by displaying the shortest path between any location in the grid.
 
