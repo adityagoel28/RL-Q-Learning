@@ -1,6 +1,9 @@
 # RL-Q-Learning
 RL Project Grid World Solving using Q-Learning Algorithm
 
+## By- Aditya Goel and Sanskar Chandra
+https://github.com/adityagoel28/RL-Q-Learning
+
 #### Importing Required Libraries
 
 ```python #import libraries
