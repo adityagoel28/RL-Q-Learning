@@ -1,7 +1,7 @@
 # RL-Q-Learning
-RL Project Grid World Solving using Q-Learning Algorithm
+## RL Project Grid World Solving using Q-Learning Algorithm
 
-## By- Aditya Goel and Sanskar Chandra
+### By- Aditya Goel and Sanskar Chandra
 https://github.com/adityagoel28/RL-Q-Learning
 
 #### Importing Required Libraries
@@ -199,3 +199,10 @@ print(get_shortest_path(0, 2)) #starting at row 0, column 2
 print(get_shortest_path(1, 2)) #starting at row 1, column 2
 print(get_shortest_path(3, 2)) #starting at row 3, column 2
 ```
+
+## Output-
+> []
+
+> [[1, 2], [0, 2]]
+
+> [[3, 2], [2, 2], [2, 3], [1, 3], [0, 3], [0, 2]]
