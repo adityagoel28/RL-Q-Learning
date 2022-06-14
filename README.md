@@ -4,6 +4,13 @@
 ### By- Aditya Goel and Sanskar Chandra
 https://github.com/adityagoel28/RL-Q-Learning
 
+## Q Learning
+Q-learning is an off policy reinforcement learning algorithm that seeks to find the best action to take given the current state. It’s considered off-policy because the q-learning function learns from actions that are outside the current policy, like taking random actions, and therefore a policy isn’t needed. More specifically, q-learning seeks to learn a policy that maximizes the total reward.
+
+## Q Table
+A Q-Table helps us to find the best action for each state in the environment. We use the Bellman Equation at each state to get the expected future state and reward and save it in a table to compare with other states. 
+
+
 #### Importing Required Libraries
 
 ```python #import libraries
@@ -77,9 +84,7 @@ for i in range(0,2):
 for row in rewards:
   print(row)
   ```
-
-![image](https://user-images.githubusercontent.com/67872867/173496353-f4ec0621-9f41-4ded-8e97-9bd3bf10b285.png)
-
+  
 ## Train the Model
 Our next task is for our AI agent to learn about its environment by implementing a Q-learning model. The learning process will follow these steps:
 1. Choose a random, non-terminal state (white square) for the agent to begin this new episode.
