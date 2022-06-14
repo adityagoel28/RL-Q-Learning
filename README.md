@@ -77,7 +77,9 @@ for i in range(0,2):
 for row in rewards:
   print(row)
   ```
-  
+
+![image](https://user-images.githubusercontent.com/67872867/173496270-f264183f-dec8-4bc2-becd-d614a011c98f.png)
+
 ## Train the Model
 Our next task is for our AI agent to learn about its environment by implementing a Q-learning model. The learning process will follow these steps:
 1. Choose a random, non-terminal state (white square) for the agent to begin this new episode.
